@@ -29,7 +29,7 @@
 │   └── leopards/        # Фото леопардов
 ├── screenshots/         # Скриншоты для README
 ├── index.html           # Главная страница
-├── animals.html         # О леопардах
-├── contacts.html        # Контакты
-└── README.md            # Этот файл
+├── animals.html         # Страница о видах
+├── contacts.html        # Контактная форма
+└── README.md            # Документация
 
