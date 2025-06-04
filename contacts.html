@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Леопарды - Контакты</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container">
+      <div class="header__logo">Леопарды</div>
+      <nav class="nav header__nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+          <li class="nav__item"><a href="animals.html" class="nav__link">О леопардах</a></li>
+          <li class="nav__item"><a href="contacts.html" class="nav__link nav__link--active">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="contacts-section">
+      <div class="contacts-container">
+        <h1 class="contacts-title">Свяжитесь с нами</h1>
+        <p class="contacts-subtitle">Заполните форму ниже, и мы ответим вам в течение 24 часов</p>
+
+        <div class="contacts-grid">
+          <form class="contact-form">
+            <div class="form-group">
+              <input class="form-input" type="text" placeholder=" " name="name" required />
+              <label class="form-label">Ваше имя</label>
+            </div>
+            <div class="form-group">
+              <input class="form-input" type="email" placeholder=" " name="email" required />
+              <label class="form-label">Ваш email</label>
+            </div>
+            <div class="form-group form-group--textarea">
+              <textarea class="form-textarea" placeholder=" " name="message" required></textarea>
+              <label class="form-label">Ваше сообщение</label>
+            </div>
+            <button class="button button--primary button--large" type="submit">Отправить сообщение</button>
+          </form>
+
+          <div class="contact-info">
+            <div class="info-block">
+              <h3 class="info-title">Контакты</h3>
+              <p class="info-text"><i class="icon icon--location"></i> г. Москва, ул. Леопардовая, 15</p>
+              <p class="info-text"><i class="icon icon--phone"></i> +7 (123) 456-78-90</p>
+              <p class="info-text"><i class="icon icon--email"></i> info@leopards.ru</p>
+            </div>
+
+            <div class="info-block">
+              <h3 class="info-title">Социальные сети</h3>
+              <div class="social-links">
+                <a href="#" class="social-link">
+                  <img src="images/icons/vk.png" alt="ВКонтакте" class="social-icon">
+                </a>
+                <a href="#" class="social-link">
+                  <img src="images/icons/telegram.png" alt="Telegram" class="social-icon">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__text">© 2025 Мир леопардов | Сохраним природу вместе</div>
+      <div class="footer__links">
+        <a href="#" class="footer__link">Политика конфиденциальности</a>
+        <a href="#" class="footer__link">Условия использования</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
