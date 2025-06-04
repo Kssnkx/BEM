@@ -31,5 +31,5 @@
 ├── index.html           # Главная страница
 ├── animals.html         # О леопардах
 ├── contacts.html        # Контакты
-└── README.md           # Этот файл
+└── README.md            # Этот файл
 
